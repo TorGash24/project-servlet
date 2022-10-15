@@ -13,4 +13,5 @@ public class RestartServlet extends HttpServlet {
         req.getSession().invalidate();
         resp.sendRedirect("/start");
     }
+
 }
